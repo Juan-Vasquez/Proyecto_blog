@@ -1,3 +1,12 @@
-.row{
+/*Encabezado*/
+.img_logo{
+	width: 20%;
+	height: 0 auto;
+}
+
+/*Barra de Navegacion*/
+
+
+[class ^='col']{
 	border: 1px solid black;
 }
