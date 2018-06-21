@@ -5,8 +5,49 @@
 }
 
 /*Barra de Navegacion*/
+nav > div[class^='col']{
+	max-height: 50px;
+	padding: 10px;
+	text-align: center;
+	background-color: beige;
+}
 
+.enlaces > a{
+	font-size: 1.2em;
+	color: black;
+}
 
-[class ^='col']{
+.enlaces a:hover, .enlace a:active{
+	background: white;
+	padding: 10px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+/*Seccion 1*/
+.contenedor{
+	margin-top: 10px;
+}
+
+.Color-fondo{
+	background-color: grey;
+}
+.img_paisaje{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#comentario{
+	padding: 10px;
+}
+#area_texto{
+	float: right;
+	border-radius: 10px;
 	border: 1px solid black;
 }
+
+@media (max-width: 480px){
+	textarea{
+		width: 90%;
+	}
+}
+
