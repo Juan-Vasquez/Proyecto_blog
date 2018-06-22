@@ -38,9 +38,9 @@
 			</nav>
 
 			<section class="row contenedor">
-				<article class="col-lg-8 Color-fondo">
+				<article class="col-lg-8 col-md-7 Color-fondo">
 					<div class="row">
-						<div class="col-lg-8">
+						<div class="col-lg-8 col-md-7">
 							<h2>Iniciando con la musica</h2>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -51,21 +51,24 @@
 								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 							</p>
 						</div>
-						<div class="col-lg-4">
+						<div class="col-lg-4 col-md-5">
 							<img class="img_paisaje" src="img/lago-de-atitlan.jpg" width="100%">
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-lg-12" id="comentario">
-							<textarea id="area_texto" placeholder="Comentario.." rows="1" cols="100"></textarea>
-						</div>
+					<div class="row area-texto">
+						<form role="form">
+							<div class="form-group">
+								<label for="comentario"></label>
+								<textarea name="comentario" rows="1" cols="20" class="form-control"></textarea>
+							</div>
+						</form>
 					</div>
 
 					<div class="row">
-						<div class="col-lg-4">
+						<div class="col-lg-4 col-md-5">
 							<img class="img_paisaje" src="img/catedral.jpg" width="100%">
 						</div>
-						<div class="col-lg-8">
+						<div class="col-lg-8 col-md-7">
 							<h2>Iniciando con la musica</h2>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -77,14 +80,24 @@
 							</p>
 						</div>	
 					</div>
-					<div class="row">
-							<div class="col-lg-12" id="comentario">
-								<textarea id="area_texto" placeholder="Comentario" rows="1" cols="100"></textarea>
+					<div class="row area-texto">
+						<form role="form">
+							<div class="form-group">
+								<label for="comentario"></label>
+								<textarea name="comentario" rows="1" cols="20" class="form-control"></textarea>
 							</div>
-						</div>
+						</form>		
+					</div>
 				</article>
 
-				<article class=" col-lg-4"></article>
+				<article class="col-lg-4 col-md-5">
+					<form role="form">
+						<div class="form-group">
+							<input type="text" name="buscador" class="form-control" placeholder="Buscar por...">
+							<label for="buscador">Buscar</label>
+						</div>
+					</form>
+				</article>
 			</section>
 
 		</div>

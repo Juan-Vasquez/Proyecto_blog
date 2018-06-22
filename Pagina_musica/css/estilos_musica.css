@@ -36,18 +36,7 @@ nav > div[class^='col']{
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-#comentario{
+
+.area-texto{
 	padding: 10px;
 }
-#area_texto{
-	float: right;
-	border-radius: 10px;
-	border: 1px solid black;
-}
-
-@media (max-width: 480px){
-	textarea{
-		width: 90%;
-	}
-}
-
