@@ -16,7 +16,9 @@ nav > div[class^='col']{
 	font-size: 1.2em;
 	color: black;
 }
-
+.enlaces a:link, .enlaces a:visited{
+	text-decoration: none;
+}
 .enlaces a:hover, .enlace a:active{
 	background: white;
 	padding: 10px;
@@ -36,12 +38,13 @@ nav > div[class^='col']{
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-
 .area-texto{
 	padding: 10px;
 }
-
 #iconos{
 	float: right;
-	margin-top: 75px;
+	margin-top: 50px;
+}
+.buscador{
+	background-color: rgb(234,237,237);
 }
