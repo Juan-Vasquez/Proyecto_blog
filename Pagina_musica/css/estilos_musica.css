@@ -1,8 +1,16 @@
 /*Encabezado*/
 .img_logo{
-	width: 20%;
+	width: 25%;
 	height: 0 auto;
 }
+
+@media (min-width: 770px){
+	#iconos{
+		float: right;		
+		margin-top: 30px;
+	}
+}
+
 
 /*Barra de Navegacion*/
 nav > div[class^='col']{
@@ -41,10 +49,13 @@ nav > div[class^='col']{
 .area-texto{
 	padding: 10px;
 }
-#iconos{
-	float: right;
-	margin-top: 50px;
-}
-.buscador{
+
+.Buscador{
+	padding-top: 5px;
 	background-color: rgb(234,237,237);
 }
+@media (max-width: 990px){
+	.Buscador{
+		padding-top: 10px;
+	}
+}	
