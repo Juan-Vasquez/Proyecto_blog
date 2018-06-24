@@ -40,3 +40,8 @@ nav > div[class^='col']{
 .area-texto{
 	padding: 10px;
 }
+
+#iconos{
+	float: right;
+	margin-top: 75px;
+}
