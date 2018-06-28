@@ -1,0 +1,15 @@
+.contenedor{
+	background: url(../img/restaurante-lujo.jpg) top no-repeat;
+	background-size: 100%,100%;
+}
+
+/*Encabezado*/
+#fondo-secundario{	
+	background-color: rgb(212,220,251);
+	opacity: 0.6;
+	width: 950px;
+}
+#titulo-inicial{
+	border-right: 1.5px solid #fff; padding-bottom:2px;
+	border-bottom: 1.5px solid #fff;
+}
