@@ -5,11 +5,20 @@
 
 /*Encabezado*/
 #fondo-secundario{	
-	background-color: rgb(212,220,251);
-	opacity: 0.6;
-	width: 950px;
+	background-color: rgb(133,146,158);
+	width: 1000px;
+}
+
+.contenedor-postres{
+	margin: 10px;
+}
+figure{
+	border: 3px solid #fff;
 }
 #titulo-inicial{
-	border-right: 1.5px solid #fff; padding-bottom:2px;
+	border-right: 1.5px solid #fff;
+	border-bottom: 1.5px solid #fff;
+}
+#encabezado-vacio{
 	border-bottom: 1.5px solid #fff;
 }
