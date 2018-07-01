@@ -5,8 +5,12 @@
 
 /*Encabezado*/
 #fondo-secundario{	
-	background-color: rgb(133,146,158);
+	background-color: rgba(133,146,158,0.75);
 	width: 1000px;
+}
+.buscador{
+	margin: 10px;
+	width: 100%;
 }
 
 .contenedor-postres{
