@@ -10,7 +10,9 @@
 }
 .buscador{
 	margin: 10px;
-	width: 100%;
+}
+#seccion-2{
+	background-color: rgba(215,189,226,0.85);
 }
 
 .menu-adicional li{
