@@ -11,8 +11,11 @@
 .buscador{
 	margin: 10px;
 }
-#seccion-2{
+
+#seccion-1{
 	background-color: rgba(215,189,226,0.85);
+	padding: 5px;
+	margin-top: 10px;
 }
 
 .menu-adicional li{
