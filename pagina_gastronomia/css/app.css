@@ -5,7 +5,7 @@
 
 /*Encabezado*/
 #fondo-secundario{	
-	background-color: rgba(133,146,158,0.75);
+	background-color: rgba(40,116,166,0.65);
 	width: 1000px;
 }
 .buscador{
@@ -13,22 +13,41 @@
 }
 
 #seccion-1{
-	background-color: rgba(215,189,226,0.85);
+	background-color: rgba(69,179,157,0.60);
+	padding: 5px;
+	margin-top: 10px;
+}
+#seccion-2{
+	background-color: rgba(69,179,157,0.80);
 	padding: 5px;
 	margin-top: 10px;
 }
 
 .menu-adicional li{
-	border: 1px solid pink;
+	border: 1px solid #fff;
 }
 .menu-adicional a{
-	color: pink;
+	color: #fff;
 }
 .contenedor-postres{
 	margin: 10px;
 }
 figure{
 	border: 3px solid #fff;
+}
+.historial-entrada{
+	list-style: none;
+}
+.historial-entrada a{
+	color: #fff;
+}
+.historial-entrada li{
+	margin-top: 10px;
+}
+
+#Favoritos, #Historial{
+	padding-top: 5px;
+	color: #fff;
 }
 #titulo-inicial{
 	border-right: 1.5px solid #fff;

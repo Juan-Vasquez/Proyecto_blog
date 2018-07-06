@@ -22,18 +22,17 @@
 			<div class="column medium-6 large-5 hide-for-small-only">
 				<section id="seccion-1">
 
-					<div class="row column buscador">
-						<form>
-							<div class="input-group">
-								<label>
-									<input type="text" name="name" class="form-control">
-								</label>
-								<div class="input-group-btn">
+					<div class="row">
+						<div class="column large-12">
+							<div class="row collapse">
+								<div class="column small-10">
+									<label><input type="text" name="buscador" placeholder="Que deseas buscar..."></label>
+								</div>
+								<div class="column small-2">
 									<button class="button" type="submit"><i class="step fi-magnifying-glass"></i></button>
-								</div>	
+								</div>
 							</div>
-						</form>
-							
+						</div>
 					</div>
 
 					<div class="menu-adicional">
@@ -44,7 +43,7 @@
 						</ul>
 					</div>
 
-					<h4>Favoritos:</h4>
+					<h4 id="Favoritos">Favoritos:</h4>
 					<div class="row contenedor-postres">
 						<div class="column large-4 medium-4"><figure><img src="img/pastel-grande.jpg"></figure></div>
 						<div class="column large-4 medium-4"><figure><img src="img/pastel.jpg"></figure></div>
@@ -56,10 +55,24 @@
 						<div class="column large-4 medium-4"><figure><img src="img/jugo-naranja.jpg"></figure></div>
 						<div class="column large-4 medium-4"><figure><img src="img/cocteles.jpeg"></figure></div>
 					</div>
-				</div>
-			</section>
+
+					<div class="row column">
+						<h4 id="Historial">Historial:</h4>
+						<ul class="custom-list-class historial-entrada">
+							<li><a href="#">Sopas de entrada</a></li>
+							<li><a href="#">Postres, y mas</a></li>
+							<li><a href="#">Espaguetis con quesillo</a></li>
+							<li><a href="#">Pollo en coca-cola</a></li>
+							<li><a href="#">Pepian de Pollo</a></li>
+							<li><a href="#">Arroz Horneado</a></li>
+						</ul>
+					</div>
+				</section>
+			</div>
 				<!--Area principal y visible para smartphone-->
-				<div class="column medium-6 large-7">
+			<div class="column medium-6 large-7">
+				<!--Primera seccion-->
+				<section id="seccion-2">
 					<div class="row column">
 						<h3>Pastas con berro y crema</h3>
 						<h6>01 de julio de 2018</h6>
@@ -76,15 +89,66 @@
 							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 						</figcaption>
 					</div>
-					<div class="row column">
-						<label>
-							Escribe un comentario
-							<textarea cols="20" rows="1"></textarea>
-						</label>
-						<button class="button float-right"><i class="fi-pencil"></i>Enviar</button> 
+					<div class="row">
+						<div class="column large-12">
+							<label>
+								Escribe un comentario
+								<textarea cols="20" rows="1"></textarea>
+							</label>	
+						</div>
+						<div class="column large-12">
+							<button class="alert button float-right"><i class="fi-pencil"></i>Publicar</button>
+						</div>
 					</div>
-				</div>
-			</div>
+					
+					<div class="row column">
+						<ul class="custom-list-class">
+							<li>Buenisimas estas pastas, me encantaria tener las recetas</li>
+							<li>Se ve bastante exquisito esa pasta, se me antoja</li>
+							<li>! Necesito inmediatamente la receta !</li>
+						</ul>
+					</div>
+				</section>
+				<!--Segunda publicacion-->
+				<section id="seccion-2">
+					<div class="row column">
+						<h3>La mejor bebida, jugo de naranaj</h3>
+						<h6>2 de julio de 2018</h6>
+						<figure>
+							<img src="img/jugo-naranja.jpg">
+						</figure>
+						<figcaption>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+						</figcaption>
+					</div>
+					<div class="row">
+						<div class="column large-12 medium-12 small-12">
+							<label>
+								Escribe un comentario
+								<textarea cols="20" rows="1"></textarea>
+							</label>
+						</div>
+						<div class="column large-12 medium-12 small-12">
+							<button class="alert button float-right"><i class="fi-pencil"></i>Publicar</button>
+						</div>
+					</div>
+					<div class="row column">
+						<ul class="custom-list-class">
+							<li>Los jugos naturales son de lo mejor</li>
+							<li>Se ve delicioso el jugo</li>
+							<li>Creo que me preparare un jugo de naranja en estos momentos</li>
+						</ul>
+					</div>
+				</section>
+			</div>		
+		</div>
 
 
 		<script src="js/vendor/foundation.js"></script>
