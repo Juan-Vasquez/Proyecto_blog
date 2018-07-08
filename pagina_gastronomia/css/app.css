@@ -1,5 +1,6 @@
 .contenedor{
 	background: url(../img/restaurante-lujo.jpg) top no-repeat;
+	background-attachment: fixed; 
 	background-size: 100%,100%;
 }
 
@@ -29,6 +30,16 @@
 .menu-adicional a{
 	color: #fff;
 }
+a:link, a:visited{
+	color: white;
+}
+.Comentarios li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.Comentarios li:hover{
+	background-color: rgba(208,211,212,0.50);
+}
 .contenedor-postres{
 	margin: 10px;
 }
@@ -43,6 +54,13 @@ figure{
 }
 .historial-entrada li{
 	margin-top: 10px;
+}
+.historial-entrada li:hover{
+	background-color: rgba(93,109,126,0.50);
+}
+.historial-entrada a:hover{
+	color: #fff;
+	height: 20px;
 }
 
 #Favoritos, #Historial{
