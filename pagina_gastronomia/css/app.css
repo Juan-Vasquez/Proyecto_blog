@@ -30,8 +30,9 @@
 .menu-adicional a{
 	color: #fff;
 }
-a:link, a:visited{
-	color: white;
+.menu li:hover, .menu a:hover{
+	background-color: rgba(208,211,212,0.50);
+	color: #fff;
 }
 .Comentarios li{
 	padding-top: 10px;
