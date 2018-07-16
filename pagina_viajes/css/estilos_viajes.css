@@ -6,8 +6,15 @@ body{
 
 #contenedor{
 	background-color: rgba(70,180,158,0.50);
-	background-attachment: fixed;
 	width: 100%;
 	height: 100%;
+}
+nav{
+	background-color: #e67e22;
+	height: 150px;
+}
+#imagen-perfil{
+	max-width: 250px;
+	border-radius: 5px;
 }
 
