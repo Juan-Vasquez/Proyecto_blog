@@ -44,6 +44,11 @@
 .contenedor-postres{
 	margin: 10px;
 }
+
+#icono{
+	width: 10%;
+}
+
 figure{
 	border: 3px solid #fff;
 }
